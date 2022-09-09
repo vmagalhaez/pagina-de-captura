@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:black;
+}
+
+.conteiner{
+    max-width: 1000px;
+    margin: auto;
+}
+
+header{
+    color: white;
+    text-align:center;
+    background-color: #55B4FC;
+    padding:10px;
+}
+
+.titulo{
+    font-size:20px;
+    color: white;
+}
+
+main{
+    padding: 20px;
+    background-image: url(../assets/people.jpg);
+    background-size: cover;
+    overflow: hidden;
+
+}
+.formulario{
+    max-width: 230px;
+    background-color: #ffffffbb;
+    padding:20px;
+    float:right;
+}
+
+h2{
+    font-size:16px;
+}
+
+p{
+    font-size:14px;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing:border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+select{
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+
+    background-image: url(../assets/arrow.jpg);
+    background-repeat:no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+input[type="submit"]{
+    color:white;
+    background-color:#55B4FC;
+    font-weight: bold;
+}
+footer{
+    background-color: #202121;
+    padding:40px;
+    text-align:center;
+}
+
+.imagem{
+    width:160px;
+}
+
+.descricao{
+    display: inline-block;
+    text-align: left;
+    color:white;
+    max-width: 40%;
+    margin-left:40px;
+}
+
+.descricao p, .descricao h2{
+    margin-bottom:20px;
+}
